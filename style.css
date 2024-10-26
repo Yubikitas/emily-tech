@@ -1,10 +1,10 @@
 
 body{
-    height: 100vh;
-    margin: 0; 
+    margin: auto 0; 
     font-family: Roboto, sans-serif;    
     display: flex; 
     flex-direction: column; 
+    flex-wrap: wrap; 
 }
 
 ul{
@@ -25,12 +25,17 @@ li{
     padding: 20px; 
 }
 
+
 .header{
     padding-bottom: 100px; 
 }
 
 .footer{
     height: 30px; 
+    display: flex; 
+    color: white; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .header-top{ 
@@ -66,24 +71,75 @@ li{
     font-weight: bold; 
 }
 
-.main-content{
-    display: flex; 
-    flex: 1; 
-}
 
 .image-container{
     background-color: white; 
-    height: 30px; 
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+    align-items: center; 
+    justify-content: space-around; 
+    text-align: center; 
+}
+
+
+.image-container img{
+    width: 200px; 
+    height: auto; 
+    padding: 50px 24px; 
+}
+
+.expertise-text{
+    font-weight: bold; 
+    color:  #1F2937; 
+}
+
+.item-order{
+    display: flex; 
+    flex-direction: row; 
+    gap: 100px; 
 }
 
 .quote-container{
     background-color: #E5E7EB;
-    height: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    padding: 50px 24px; 
+}
+
+.quote{ 
+    width: 300px; 
 }
 
 .box-container{
     background-color: white; 
-    height:30px; 
+    padding: 50px 24px; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.action-box{
+    display: flex; 
+    flex-direction: row; 
+    background-color: #3882f6; 
+    height: 150px;  
+    width: 1200px; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.action-message{ 
+    color: white; 
+}
+
+.action-button button{
+    color: white; 
+    background-color: #3882f6; 
+    border-radius: 8px;
+    border-color: white;  
+    padding: 8px 24px; 
+    font-weight: bold; 
 }
 
 .logo{

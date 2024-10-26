@@ -80,6 +80,7 @@ li{
     align-items: center; 
     justify-content: space-around; 
     text-align: center; 
+    padding: 50px 24px; 
 }
 
 
@@ -108,8 +109,13 @@ li{
     padding: 50px 24px; 
 }
 
-.quote{ 
+.quote h2,
+.quote h3{ 
     width: 300px; 
+    size: 36px; 
+    font-style: italic; 
+    font-weight: light; 
+    color: #1F2937;
 }
 
 .box-container{
